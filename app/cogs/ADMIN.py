@@ -3,7 +3,7 @@ from disnake.ext import commands
 
 
 class ADMIN(commands.Cog):
-    def __init__(self, bot=commands.Bot):
+    def __init__(self, bot: commands.Bot):
         self.bot = bot
 
 
